@@ -1,1 +1,1 @@
-Hi! Blue is such an amazong color.
+Hi! Blue is such an amazing color.
