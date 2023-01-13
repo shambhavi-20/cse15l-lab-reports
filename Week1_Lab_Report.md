@@ -2,7 +2,7 @@
 
 
 ## Installing VScode
-- To install VScode, go to https://code.visualstudio.com/ and download the version suitable for your personal laptop or computer. I downloaded a version for macOS.
+- To install VScode, go to <https://code.visualstudio.com/> and download the version suitable for your personal laptop or computer. I downloaded a version for macOS.
 - After downloading, you can access the terminal and customize the color themes. It was a lot of fun changing the themes! I used Dark High Contrast.
 - When you open VScode, it should look something like this. <img width="1512" alt="Screen Shot 2023-01-12 at 10 17 57 AM" src="https://user-images.githubusercontent.com/114725358/212421023-ba0dd28f-17b9-47ab-8cfd-535686fb9798.png">
 
