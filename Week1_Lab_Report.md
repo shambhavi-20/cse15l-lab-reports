@@ -21,7 +21,6 @@
 - One of the things I tried to do was move back a directory and try to access some other users accounts but it just said “Permission denied” as it should have!
 - To exit, press **_Control + D_** together or type **_exit_** on the command line. 
 - Try different combinations of commands!
-
 - Here is an example -
 I used the following commands:
 ```
