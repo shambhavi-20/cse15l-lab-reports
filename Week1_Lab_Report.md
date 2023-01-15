@@ -19,7 +19,7 @@
 ## Trying Some Commands
 - Once logged in, try the following commands: cd, ls, pwd, cat, cp etc.
 - One of the things I tried to do was move back a directory and try to access some other users accounts but it just said “Permission denied” as it should have!
-- Here is an example-
+- Here is an example -
 I used the following commands:
 ```
 cd ~
