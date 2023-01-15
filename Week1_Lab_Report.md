@@ -19,6 +19,9 @@
 ## Trying Some Commands
 - Once logged in, try the following commands: cd, ls, pwd, cat, cp etc.
 - One of the things I tried to do was move back a directory and try to access some other users accounts but it just said “Permission denied” as it should have!
+- To exit, press **_Control + D_** together or type **_exit_** on the command line. 
+- Try different combinations of commands!
+
 - Here is an example -
 I used the following commands:
 ```
@@ -38,7 +41,5 @@ cd cs15wi23aqe
 cd cs15wi23auz
 ```
 <img width="1007" alt="Screen Shot 2023-01-12 at 12 48 50 PM" src="https://user-images.githubusercontent.com/114725358/212425873-2efc6a98-b78f-4136-910c-dbfd5861ba77.png">  <img width="1094" alt="Screen Shot 2023-01-12 at 12 49 27 PM" src="https://user-images.githubusercontent.com/114725358/212425926-1d31695c-424e-4ba9-bc16-8401c9aa7b18.png">  <img width="1087" alt="Screen Shot 2023-01-12 at 12 49 43 PM" src="https://user-images.githubusercontent.com/114725358/212426119-b7bcfd60-c0a4-4976-bc85-0df450f1ae70.png">  
-- To exit, press **_Control + D_** together or type **_exit_** on the command line. 
-- Try different combinations of commands!
 
 
