@@ -11,7 +11,7 @@
 - To use ssh, enter the given command and replace abc with your specific account for this course.
   > (_Pro tip_: In the tutorial, there was a $ added in front of the same command. I added it to my command at first. I finally understood that it was a part of the terminal but on my terminal it looks like \~. So, if you have \$ or \~ showing on the terminal, enter the given command.) 
    
-                                                  sshcs15lwi23abc@ieng6.ucsd.edu  
+                                                  ssh cs15lwi23abc@ieng6.ucsd.edu  
 - It asks if you want to connect or not, type “yes”. Then, enter your password for the course that was set during lab.<img width="685" alt="Screen Shot 2023-01-13 at 1 45 21 PM" src="https://user-images.githubusercontent.com/114725358/212425024-0d4b165a-a296-46b4-9540-922f6da03f89.png">
 - After this, you would get the following message:<img width="715" alt="Screen Shot 2023-01-13 at 1 47 55 PM" src="https://user-images.githubusercontent.com/114725358/212425377-93cdd6e9-5c64-44f8-a429-c6e50a3f7772.png">
 - You should be logged in and able to remotely access the server.
