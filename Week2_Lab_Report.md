@@ -61,8 +61,8 @@ How do the values of any relevant fields of the class change from this specific 
 
 
 # Part 2 - Bugs and Symptoms
-- An choosing the bug in reversed of ArrayExamples.java
-- A failure inducing input is {1,2,3}:
+- I am choosing the bug in reversed of ArrayExamples.java (Returns a *new* array with all the elements of the input array in reversed order.).
+- A failure inducing input is {1,2,3}. We expect {3,2,1}, but get {0,0,0}.
 ```
   @Test
   public void testReverse1() {
@@ -71,9 +71,9 @@ How do the values of any relevant fields of the class change from this specific 
     assertArrayEquals(new int[]{3,2,1}, output);
   }
 ```
-We expect {3,2,1}, but get {0,0,0}.
 
-- A non-failure inducing input is {0}:
+
+- A non-failure inducing input is {0}. We get what we expect.
 ```
   @Test
   public void testReversed() {
@@ -81,9 +81,34 @@ We expect {3,2,1}, but get {0,0,0}.
     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
   ```
-  We get what we expect.
+ 
   
-- In both testReverse1 and testReverse2, the symptom is very similar. Because we are updating arr with a newly created array newArray, the method is always return an array with its elements as 0. 
+- In both testReverse1 and testReverse2, the symptom is very similar. Because we are updating arr with a newly created array newArray, the method willl always return an array with its elements as 0. 
 <img width="1133" alt="Screen Shot 2023-01-27 at 1 51 45 PM" src="https://user-images.githubusercontent.com/114725358/215208609-96d09ebc-9f96-43bb-8241-d26a37c3508f.png"><img width="1132" alt="Screen Shot 2023-01-27 at 1 51 13 PM" src="https://user-images.githubusercontent.com/114725358/215208647-30e05ec8-7d71-4622-a5dc-3f4af3938aac.png">
 
+- The code before the fix:
+```
+ // Returns a *new* array with all the elements of the input array in reversed order.
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+```
+- The code after the fix:
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+        newArray[i] = arr[arr.length - i - 1]; //change
+    }
+    return newArray;//change
+  }
+```
+- The code was updating the old array arr with the values of the new array newArray. So, I just interchanged the two and now the code is updating newArray.
+- The code was returning arr instead of newArray. But we are asked to return a new array. So, I changed  it to the return newArray. 
 
+# Part 3
+- Everything done Lab 2 was new for me. It was fun learn how to create a web server. A web server sounded so ambitious at first but after I dit it, it was very rewarding. Commiting changes to Gihub, cloning repositories to VS Code and finally playing around with the server was very fun. Debugging is something I ahve done before but following the steps given really helped me. It made my understanding of the code and my efficiency in finding edge cases better.
