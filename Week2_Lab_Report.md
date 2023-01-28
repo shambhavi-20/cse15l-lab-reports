@@ -1,7 +1,8 @@
 # Part 1 - Web Server
 
 
-## a) Code for StringServer.java
+**a) Code for StringServer.java**
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -47,10 +48,12 @@ class StringServer {
 }
 
 ```
-## b) Screenshots of the  web server using /add-message
+
+**b) Screenshots of the  web server using /add-message**
 
 <img width="611" alt="Screen Shot 2023-01-27 at 12 30 24 PM" src="https://user-images.githubusercontent.com/114725358/215191245-14d4fb46-626f-464f-82c8-a37f5b641770.png">
 <img width="574" alt="Screen Shot 2023-01-27 at 12 34 23 PM" src="https://user-images.githubusercontent.com/114725358/215191743-ff2c37b2-7fd9-4a48-96e5-2e337951e53c.png">
+
 - Which methods in your code are called? StringServer has the main method which is being used to create the server. Then, to handle 
 - 
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
@@ -61,8 +64,10 @@ How do the values of any relevant fields of the class change from this specific 
 
 
 # Part 2 - Bugs and Symptoms
+
 - I am choosing the bug in reversed of ArrayExamples.java (Returns a *new* array with all the elements of the input array in reversed order.).
 - A failure inducing input is {1,2,3}. We expect {3,2,1}, but get {0,0,0}.
+
 ```
   @Test
   public void testReverse1() {
@@ -108,7 +113,8 @@ static int[] reversed(int[] arr) {
   }
 ```
 - The code was updating the old array arr with the values of the new array newArray. So, I just interchanged the two and now the code is updating newArray.
-- The code was returning arr instead of newArray. But we are asked to return a new array. So, I changed  it to the return newArray. 
+- The code was returning arr instead of newArray. But we are asked to return a new array. So, I changed it to the return newArray. 
 
 # Part 3
-- Everything done Lab 2 was new for me. It was fun learn how to create a web server. A web server sounded so ambitious at first but after I dit it, it was very rewarding. Commiting changes to Gihub, cloning repositories to VS Code and finally playing around with the server was very fun. Debugging is something I ahve done before but following the steps given really helped me. It made my understanding of the code and my efficiency in finding edge cases better.
+
+- Everything done in Lab 2 was new for me. It was fun learning how to create a web server. A web server sounded very ambitious at first but after I did it, the process was very rewarding. Committing changes to Gihub, cloning repositories to VS Code, and finally playing around with the server was very fun. Debugging is something I have done before but following the steps given really helped me. It made my understanding of the code and my efficiency in finding edge cases better.
