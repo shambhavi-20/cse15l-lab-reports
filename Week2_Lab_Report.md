@@ -54,12 +54,10 @@ class StringServer {
 <img width="611" alt="Screen Shot 2023-01-27 at 12 30 24 PM" src="https://user-images.githubusercontent.com/114725358/215191245-14d4fb46-626f-464f-82c8-a37f5b641770.png">
 <img width="574" alt="Screen Shot 2023-01-27 at 12 34 23 PM" src="https://user-images.githubusercontent.com/114725358/215191743-ff2c37b2-7fd9-4a48-96e5-2e337951e53c.png">
 
-- Which methods in your code are called? StringServer has the main method which is being used to create the server. Then, to handle 
-- 
-What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-
-
+- Class StringServer has the main method which is being used to create the server. StringServer takes the port number as the argument. Then, to handle the entered URL, handleRequest from the Handler class is called. The method takes the URL as its argument. 
+- If the path of the URL is "/", the page displays "Shambhavi's String displayer". 
+- If the path of the URL is "/add-message", the method checks for the query. If "s" is found in the query, the statement after "=" that could be a set of any characters (E.g. "abc", "123") is added to the instance variable data. Then, the method iterates over data and returns a String with all the previously added statements. 
+- If all these steps are not satisfied, the server displays an error "404 Not Found!". 
 
 
 
