@@ -67,7 +67,7 @@ class StringServer {
 - I am choosing the bug in reversed of ArrayExamples.java (Returns a *new* array with all the elements of the input array in reversed order.).
 - A failure inducing input is {1,2,3}. We expect {3,2,1}, but get {0,0,0}.
 
-```Ruby
+```ruby
   @Test
   public void testReverse1() {
     int[] input1 = {1,2,3};
@@ -79,7 +79,7 @@ class StringServer {
 
 - A non-failure inducing input is {0}. We get what we expect.
 
-```Ruby
+```ruby
   @Test
   public void testReversed() {
     int[] input1 = {0};
@@ -92,7 +92,8 @@ class StringServer {
 <img width="1133" alt="Screen Shot 2023-01-27 at 1 51 45 PM" src="https://user-images.githubusercontent.com/114725358/215208609-96d09ebc-9f96-43bb-8241-d26a37c3508f.png"><img width="1132" alt="Screen Shot 2023-01-27 at 1 51 13 PM" src="https://user-images.githubusercontent.com/114725358/215208647-30e05ec8-7d71-4622-a5dc-3f4af3938aac.png">
 
 - The code before the fix:
-```
+
+```ruby
  // Returns a *new* array with all the elements of the input array in reversed order.
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -102,8 +103,10 @@ static int[] reversed(int[] arr) {
     return arr;
 }
 ```
+
 - The code after the fix:
-```
+
+```ruby
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
