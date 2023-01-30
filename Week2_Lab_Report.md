@@ -3,7 +3,7 @@
 
 **a) Code for StringServer.java**
 
-```
+```ruby
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -67,7 +67,7 @@ class StringServer {
 - I am choosing the bug in reversed of ArrayExamples.java (Returns a *new* array with all the elements of the input array in reversed order.).
 - A failure inducing input is {1,2,3}. We expect {3,2,1}, but get {0,0,0}.
 
-```
+```Ruby
   @Test
   public void testReverse1() {
     int[] input1 = {1,2,3};
@@ -78,7 +78,8 @@ class StringServer {
 
 
 - A non-failure inducing input is {0}. We get what we expect.
-```
+
+```Ruby
   @Test
   public void testReversed() {
     int[] input1 = {0};
