@@ -58,6 +58,7 @@ class StringServer {
 - If the path of the URL is "/", the page displays "Shambhavi's String displayer". 
 - If the path of the URL is "/add-message", the method checks for the query. If "s" is found in the query, the statement after "=" that could be a set of any characters (E.g. "abc", "123") is added to the instance variable data. Then, the method iterates over data and returns a String with all the previously added statements. 
 - If all these steps are not satisfied, the server displays an error "404 Not Found!". 
+- So, everytime we relod the server, the variable URL changes and we get a different output based on value conditions given above.
 
 
 
