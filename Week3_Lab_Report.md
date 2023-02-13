@@ -1,5 +1,5 @@
 # Researching Commands
-### grep command
+### grep commands
 
 - **grep -l**: Prints the names of the files which match the provided word.
 
