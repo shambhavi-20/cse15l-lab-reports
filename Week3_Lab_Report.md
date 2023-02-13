@@ -68,3 +68,8 @@ written_2/non-fiction/OUP/Berk/CH4.txt:By observing children’s play themes, we
 written_2/non-fiction/OUP/Berk/ch1.txt:According to Vygotsky, infants are biologically endowed with basic perceptual, attentional, and memory capacities that they share with other animals. These undergo a natural course of development through direct contact with the environment during the ﬁrst two years of life, similar to the process of exploration and discovery described by Piaget. For example, all babies gradually distinguish objects and people in their surroundings and realize that these entities continue to exist when out of sight. They also merge objects that are alike into categories (such as vehicles, animals, birds, and eating utensils), laying the foundation for mentally representing their experiences and thinking eciently. And they become adept at imitating others, a powerful means for acquiring new skills. These and other infant capabilities set the stage for language, which develops with extraordinary speed after 1 year of age. By ages 2 to 3, most children are skilled conversationalists; by age 6, they have mastered most of the grammatical rules of their language and have vocabularies as large as ten thousand words.81 
 ```
 If we forget the case of the word, this could help us find the word in the files.
+
+
+
+Sources:
+- grep --help
