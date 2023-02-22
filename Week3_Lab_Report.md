@@ -73,3 +73,4 @@ If we forget the case of the word, this could help us find the word in the files
 
 #### Sources:
 - I used grep --help on the command line to find patterns in the written_2 directory. Read through the written material in grep --help and tested out examples.
+- [grep commands](https://linuxcommand.org/lc3_man_pages/grep1.html)
