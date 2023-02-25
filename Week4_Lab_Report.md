@@ -40,7 +40,8 @@ The [ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java ]
 command was very far up in the search history.
 So, I used Ctrl-R to search for it. I typed "javac" and found the command. 
 After that I just pressed Enter.
-The [ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests ] 
+The [ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar 
+      org.junit.runner.JUnitCore ListExamplesTests ] 
 command was far up in the search history. 
 So, I used Ctrl-R to search for it. I typed "java -c" and found the command. 
 After that I just pressed Enter. The output shows that one test is failing.
@@ -78,7 +79,8 @@ Keys pressed: <up><up><up><enter>, <up><up><up><enter>
 The [ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java ] command 
 was 3 up in the search history, so I used up arrow to access it.
 After that I just pressed Enter.
-The [ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests ] 
+The [ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar 
+      org.junit.runner.JUnitCore ListExamplesTests ] 
 command was 3 up in the search history, so I used up arrow to access it. 
 After that I just pressed Enter. 
 The output shows that all the tests are passing.
