@@ -31,17 +31,18 @@ The [ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java ] comman
 The [ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests ] command was far up in the search history. 
 So, I used Ctrl-R to search for it. I typed "java -c" and found the command. After that I just pressed Enter. The output shows that one test is failing.
 ```
+
 <img width="967" alt="Screen Shot 2023-02-24 at 12 17 41 PM" src="https://user-images.githubusercontent.com/114725358/221282662-e2f6ef89-fd42-4bbf-afbd-bf804e060c5f.png">
 
 - Edit the code file to fix the failing test.
+
 ```
 Keys pressed: <nano Li><tab><j><tab><enter>, <Ctrl-W><result.ad><enter><Ctrl-E><left side><left side><left side><delete><delete><delete>, <scroll down to last the while><down><down><right side><right side><right side><right side><right side><right side><right side><right side><delete<2>, <Ctrl-O><enter><Ctrl-X>   
 
 I used [ nano ListExamples.java ] command to edit the file.
 Then I used various ways to navigate through the file to change the errors. I used Ctrl-W to search for result.add. Then, I used Ctrl-E to get to the end of the line and moved left to delete "0, ". Then I scrolled down with my touchpad and used the right key to move. I changed "index1" to "index2". I used Ctrl-O and Enter to save the changes. Finally, I pressed Ctrl-X to exit from nano.
-
-
 ```
+
 <img width="515" alt="Screen Shot 2023-02-24 at 4 34 24 AM" src="https://user-images.githubusercontent.com/114725358/221180275-90ed6141-ee58-4520-8aee-2d70eefb7c6f.png">
 <img width="897" alt="Screen Shot 2023-02-24 at 12 36 10 PM" src="https://user-images.githubusercontent.com/114725358/221286492-04fcd9f2-6e67-4980-b92e-2fa77f2d8332.png">
 
@@ -52,6 +53,7 @@ Keys pressed: <up><up><up><enter>, <up><up><up><enter>
 The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 3 up in the search history, so I used up arrow to access it. After that I just pressed Enter.
 The java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests was 3 up in the search history, so I used up arrow to access it. After that I just pressed Enter. The output shows that all the tests are passing.
 ```
+  
 <img width="961" alt="Screen Shot 2023-02-24 at 12 14 44 PM" src="https://user-images.githubusercontent.com/114725358/221282354-c85a2f5a-93d3-4506-9279-53b77880f8c3.png">
 
   
@@ -64,5 +66,6 @@ So, I used Ctrl-R to search for it. I typed "git add" and found the command. Aft
 The git commit -m "updated"  was very far up in the search history. 
 So, I used Ctrl-R to search for it. I typed "git com" and found the command. After that I just pressed Enter to commit the changes.
 ```
+  
 <img width="602" alt="Screen Shot 2023-02-24 at 12 48 23 PM" src="https://user-images.githubusercontent.com/114725358/221304141-b7406f37-a44a-47e6-b35c-d0479c5264aa.png">
 
