@@ -23,6 +23,7 @@ So, I used Ctrl-R to search for it. I typed "git clo" and found the command. Aft
 <img width="604" alt="Screen Shot 2023-02-24 at 4 00 22 AM" src="https://user-images.githubusercontent.com/114725358/221174113-02b4a76c-012c-40e2-9980-d7691b5ecc29.png">
 
 - Run the tests, demonstrating that they fail.
+
 ```
 Keys pressed: <cd la><tab><enter>, <Ctrl-R><javac><enter>, <Ctrl-R><java -c><enter>
 
