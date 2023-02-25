@@ -9,8 +9,8 @@
 Keys pressed: <up><enter> 
 
 The [ ssh cs15lwi23aqe@ieng6.ucsd.edu ] command was 1 up in the search history, 
-so I used up arrow to access it. 
-After that I just pressed Enter to login to my ieng6 server.
+so I used the up arrow to access it. 
+After that, I just pressed Enter to log in to my ieng6 server.
 ```
 <img width="1045" alt="Screen Shot 2023-02-23 at 11 21 58 PM" src="https://user-images.githubusercontent.com/114725358/221117311-ce7c7f00-6ec7-4e56-982b-ecbec3e87e33.png">
 <img width="993" alt="Screen Shot 2023-02-23 at 11 22 10 PM" src="https://user-images.githubusercontent.com/114725358/221117320-4b61c95c-faf7-4b0f-a27c-7abd90b66ffb.png">
@@ -24,7 +24,7 @@ Keys pressed: <Ctrl-R><git clo><enter>
 The [ git clone https://github.com/shambhavi-20/lab7 ] 
 command was very far up in the search history. 
 So, I used Ctrl-R to search for it. I typed "git clo" and found the command. 
-After that I just pressed Enter to clone repository.
+After that, I just pressed Enter to clone the repository.
 ```
 <img width="604" alt="Screen Shot 2023-02-24 at 4 00 22 AM" src="https://user-images.githubusercontent.com/114725358/221174113-02b4a76c-012c-40e2-9980-d7691b5ecc29.png">
 
@@ -35,7 +35,7 @@ Keys pressed: <cd la><tab><enter>,
 <Ctrl-R><javac><enter>, <Ctrl-R><java -c><enter>
 
 I used [ cd lab7/ ] command to get into the required files. 
-I used tab to autocomptlete lab7/
+I used tab to autocomplete lab7/
 The [ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java ] 
 command was very far up in the search history.
 So, I used Ctrl-R to search for it. I typed "javac" and found the command. 
@@ -94,12 +94,12 @@ The output shows that all the tests are passing.
 ```
 Keys pressed: <Ctrl-R><git add><enter> , <Ctrl-R><git com><enter> 
 
-The [ git add ListExamples.java ] command  was very far up in the search history. 
+The [ git add ListExamples.java ] command was very far up in the search history. 
 So, I used Ctrl-R to search for it. I typed "git add" and found the command. 
-After that I just pressed Enter to add the changes.
+After that, I just pressed Enter to add the changes.
 The [ git commit -m "updated" ]  was very far up in the search history. 
 So, I used Ctrl-R to search for it. I typed "git com" and found the command. 
-After that I just pressed Enter to commit the changes.
+After that, I just pressed Enter to commit the changes.
 ```
   
 <img width="602" alt="Screen Shot 2023-02-24 at 12 48 23 PM" src="https://user-images.githubusercontent.com/114725358/221304141-b7406f37-a44a-47e6-b35c-d0479c5264aa.png">
