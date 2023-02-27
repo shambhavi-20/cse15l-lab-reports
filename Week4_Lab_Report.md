@@ -3,7 +3,7 @@
  
  <img width="800" alt="Screen Shot 2023-02-23 at 11 20 49 PM" src="https://user-images.githubusercontent.com/114725358/221116892-83291f06-bec9-4590-89c7-3cb97cf82af2.png">
 
-- Log into ieng6: I did not have to put in my password because I have set up a SSH Keys for my ieng6 account.
+- Log into ieng6: I did not have to put in my password because I set up a SSH Key for my ieng6 account from my local computer. 
 
 ```
 Keys pressed: <up><enter> 
@@ -34,8 +34,8 @@ After that, I just pressed Enter to clone the repository.
 Keys pressed: <cd la><tab><enter>, 
 <Ctrl-R><javac><enter>, <Ctrl-R><java -c><enter>
 
-I used [ cd lab7/ ] command to get into the required files. 
-I used tab to autocomplete lab7/
+I used [ cd lab7/ ] command to get into the required directory. 
+I used tab to autocomplete lab7/ and then Enter.
 The [ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java ] 
 command was very far up in the search history.
 So, I used Ctrl-R to search for it. I typed "javac" and found the command. 
@@ -64,7 +64,7 @@ Then I used various ways to navigate through the file to change the errors.
 I used Ctrl-W to search for result.add.
 Then, I used Ctrl-E to get to the end of the line and moved left to delete "0, ".
 Then I scrolled down with my touchpad and used the right key to move. 
-I changed "index1" to "index2".I used Ctrl-O and Enter to save the changes. 
+I changed "index1" to "index2". I used Ctrl-O and Enter to save the changes. 
 Finally, I pressed Ctrl-X to exit from nano.
 ```
 
