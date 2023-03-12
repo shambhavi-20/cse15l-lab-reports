@@ -16,6 +16,7 @@ After that, I just pressed Enter to log in to my ieng6 server.
 <img width="993" alt="Screen Shot 2023-02-23 at 11 22 10 PM" src="https://user-images.githubusercontent.com/114725358/221117320-4b61c95c-faf7-4b0f-a27c-7abd90b66ffb.png">
 
 - Create a bash script to make the rest of the process faster.
+
 ```
 Keys pressed: <nano tasks.sh><enter> 
 
@@ -29,6 +30,7 @@ For all the tasks below, I copy pasted the commands I knew worked into the bash 
 - Run the tests, demonstrating that they fail. 
 - Edit the code file to fix the failing test.
 - Commit and push the resulting change to your Github account.
+
 ``` 
 I pasted the following commands:
 git clone https://github.com/shambhavi-20/lab7
@@ -56,6 +58,7 @@ pasted into the bash script.
 <img width="1029" alt="Screen Shot 2023-03-11 at 4 39 50 PM" src="https://user-images.githubusercontent.com/114725358/224517965-6d444fdd-ac1d-452d-b036-1e2a944c0135.png">
 
 - To run all the commands
+
 ```
 Keys pressed: <bash t><tab><enter>
 
@@ -68,6 +71,7 @@ I used tab to autocomplete tasks.sh and then Enter.
 
 
 - The bash opens the nano terminal after cloning the repository and running the tests.
+
 ```
 Keys pressed:  
 <Ctrl-W><result.ad><enter><Ctrl-E><left side><left side><left side>
