@@ -19,18 +19,18 @@ After that, I just pressed Enter to log in to my ieng6 server.
 ```
 Keys pressed: <nano tasks.sh><enter> 
 
-The [ nano tasks.sh ] creates a new new nash file.
+The [ nano tasks.sh ] creates a new bash file.
 ```
 <img width="650" alt="Screen Shot 2023-03-11 at 4 32 58 PM" src="https://user-images.githubusercontent.com/114725358/224517740-e718325c-2fc4-47dd-ad61-13fd30efc32a.png">
 <img width="1044" alt="Screen Shot 2023-03-11 at 4 31 26 PM" src="https://user-images.githubusercontent.com/114725358/224517697-c25ab6cd-a59b-4d5b-9a0c-c5c443f1eb39.png">
 
-For all the tasks below, I copy pasted the commanads i knew worked into the bash script.
+For all the tasks below, I copy pasted the commands I knew worked into the bash script.
 - Clone your fork of the repository from your Github account.
 - Run the tests, demonstrating that they fail. 
 - Edit the code file to fix the failing test.
 - Commit and push the resulting change to your Github account.
 ``` 
-I pasted the following commads:
+I pasted the following commands:
 git clone https://github.com/shambhavi-20/lab7
 cd lab7/
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -50,15 +50,17 @@ Keys pressed: <Ctrl-O><enter><Ctrl-X>
 
 I put [ echo "changes made to ListExamples.java" ] to notify
 that changes have been made to "ListExamples.java".
-The rest of the commands were copied from Lab reoprt 4 and 
+The rest of the commands were copied from Lab report 4 and 
 pasted into the bash script. 
 ```
 <img width="1029" alt="Screen Shot 2023-03-11 at 4 39 50 PM" src="https://user-images.githubusercontent.com/114725358/224517965-6d444fdd-ac1d-452d-b036-1e2a944c0135.png">
 
 - To run all the commands
 ```
-Keys pressed: <bash t><tab><enter>, 
-I used [ bash tasks.sh ] command to rull the commands indoe the bash file. 
+Keys pressed: <bash t><tab><enter>
+
+I used [ bash tasks.sh ] command to run the commands
+in the bash file. 
 I used tab to autocomplete tasks.sh and then Enter.
 
 ```
@@ -84,9 +86,8 @@ Finally, I pressed Ctrl-X to exit from nano.
 <img width="1030" alt="Screen Shot 2023-03-11 at 4 49 05 PM" src="https://user-images.githubusercontent.com/114725358/224518188-291acdcb-e353-49d2-8ea1-121353435e94.png">
 
 
-
-- After that it runs the test again and commits the changes to github.
-- the whole output looks like this:
+- After that, it runs the test again and commits the changes to GitHub.
+- The whole output looks like this:
 
 
   <img width="776" alt="Screen Shot 2023-03-11 at 4 47 15 PM" src="https://user-images.githubusercontent.com/114725358/224518152-0bccc929-7344-4177-9381-47606f5ad477.png">
